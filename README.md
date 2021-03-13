@@ -1,3 +1,4 @@
+
 #Inicializar proyecto 
 
 ##- Inicializar contenedores
@@ -17,3 +18,4 @@
 ##- Detener de forma masiva
 
     docker ps -a -q | ForEach { docker stop $_ }
+
