@@ -18,4 +18,10 @@
 ##- Detener de forma masiva
 
     docker ps -a -q | ForEach { docker stop $_ }
+	
+##- Conexion a BD por terminal
+
+	mysql -u root -p	
+	
+
 
