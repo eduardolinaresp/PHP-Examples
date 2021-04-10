@@ -23,5 +23,23 @@
 
 	mysql -u root -p	
 	
+## Comentarios
+   En Este caso requerí instalar librerias adicionales entonces fui agregandolas 
+   y recreando el contenedor con:
+   
+   docker-compose build apache
+   
+## Instalar composer 
+   Documentacion
+   https://linuxize.com/post/how-to-install-and-use-composer-on-debian-10/		
+### Ejecutar
+   apt-get install software-properties-common
+   php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
+## ADD phpspreadsheet SO
+
+	
+
+	
 
 
